@@ -14,5 +14,5 @@ active virtual environment python
 install requirements.txt
 > pip install -r requirements.txt
 
-run notbook.ipynb using vscode
+run notbook.ipynb using vscode.
 change the core kernal to virtual env
