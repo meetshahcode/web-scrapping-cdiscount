@@ -8,7 +8,9 @@ import time
 url = r"https://cdiscount.com/bricolage/climatisation/traitement-de-l-air/ioniseur/l-166130303.html"
 
 #getting chrome driver
-driver = webdriver.Chrome("chromedriver.exe");
+#please check the path
+path = "infinitriresearch\chromedriver.exe"
+driver = webdriver.Chrome(path);
 #wait for few minitue 
 driver.get(url);
 #please solve captcha then continue.
